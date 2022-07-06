@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9DD357B9-F0F9-4E66-B0C8-52A2295CE0D9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A6B33600-2557-4D84-9C77-8E4F995AFB33"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LuluAssessement/Utilities/PersistData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "addToList(with:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D0EC932-6EBA-475B-8C67-3F4E854C91A2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LuluAssessement/Utilities/PersistData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "addToList(with:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92A865F2-85B7-4A89-BB65-0627B03B420D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LuluAssessementTests/LuluAssessementTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "test_fetch_all_garments()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2E01702-A527-42D2-91BC-658BC2ECABF7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LuluAssessementTests/LuluAssessementTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "test_delete_item()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A2E01702-A527-42D2-91BC-658BC2ECABF7 - c242d7059ff54280"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LuluAssessementTests.LuluAssessementTests.managedObjectModel.getter : __C.NSManagedObjectModel"
+                  moduleName = "LuluAssessementTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/developer/Desktop/RaveTraining/LuluAssessement/LuluAssessementTests/LuluAssessementTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "A2E01702-A527-42D2-91BC-658BC2ECABF7 - 762f115d34b7c294"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LuluAssessementTests.LuluAssessementTests.managedObjectModel.setter : __C.NSManagedObjectModel"
+                  moduleName = "LuluAssessementTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/developer/Desktop/RaveTraining/LuluAssessement/LuluAssessementTests/LuluAssessementTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "A2E01702-A527-42D2-91BC-658BC2ECABF7 - 5957e98998f93b56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.NSManagedObjectModel in LuluAssessementTests.LuluAssessementTests.managedObjectModel.getter : __C.NSManagedObjectModel"
+                  moduleName = "LuluAssessementTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/developer/Desktop/RaveTraining/LuluAssessement/LuluAssessementTests/LuluAssessementTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "A2E01702-A527-42D2-91BC-658BC2ECABF7 - 139dbca6b4bef283"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LuluAssessementTests.LuluAssessementTests.managedObjectModel.modify : __C.NSManagedObjectModel"
+                  moduleName = "LuluAssessementTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/developer/Desktop/RaveTraining/LuluAssessement/LuluAssessementTests/LuluAssessementTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "A2E01702-A527-42D2-91BC-658BC2ECABF7 - eb7ab525dc18d40b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LuluAssessementTests.LuluAssessementTests.managedObjectModel.modify : __C.NSManagedObjectModel with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "LuluAssessementTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/developer/Desktop/RaveTraining/LuluAssessement/LuluAssessementTests/LuluAssessementTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "A2E01702-A527-42D2-91BC-658BC2ECABF7 - 15cbf1212389d1dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LuluAssessementTests.LuluAssessementTests.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; LuluAssessementTests.LuluAssessementTests"
+                  moduleName = "LuluAssessementTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/developer/Desktop/RaveTraining/LuluAssessement/LuluAssessementTests/LuluAssessementTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "A2E01702-A527-42D2-91BC-658BC2ECABF7 - e2aefbad42979dfc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LuluAssessementTests.LuluAssessementTests.init(selector: ObjectiveC.Selector) -&gt; LuluAssessementTests.LuluAssessementTests"
+                  moduleName = "LuluAssessementTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/developer/Desktop/RaveTraining/LuluAssessement/LuluAssessementTests/LuluAssessementTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "A2E01702-A527-42D2-91BC-658BC2ECABF7 - 15bd793696d6c50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LuluAssessementTests.LuluAssessementTests.init() -&gt; LuluAssessementTests.LuluAssessementTests"
+                  moduleName = "LuluAssessementTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/developer/Desktop/RaveTraining/LuluAssessement/LuluAssessementTests/LuluAssessementTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7765BF6C-B13E-4C86-B452-B8794FBACC48"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LuluAssessementTests/LuluAssessementTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "test_sorting_date()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7765BF6C-B13E-4C86-B452-B8794FBACC48 - 19860b99b9f78400"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LuluAssessementTests.LuluAssessementTests.test_sorting_date() -&gt; ()"
+                  moduleName = "LuluAssessementTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/developer/Desktop/RaveTraining/LuluAssessement/LuluAssessementTests/LuluAssessementTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "185"
+                  endingLineNumber = "185"
+                  offsetFromSymbolStart = "1016">
+               </Location>
+               <Location
+                  uuid = "7765BF6C-B13E-4C86-B452-B8794FBACC48 - 19860b99b9f78400"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LuluAssessementTests.LuluAssessementTests.test_sorting_date() -&gt; ()"
+                  moduleName = "LuluAssessementTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/developer/Desktop/RaveTraining/LuluAssessement/LuluAssessementTests/LuluAssessementTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "185"
+                  endingLineNumber = "185"
+                  offsetFromSymbolStart = "1256">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

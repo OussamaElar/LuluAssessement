@@ -9,27 +9,53 @@
 /* Begin PBXBuildFile section */
 		132545A6286F4FFD0066DF62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132545A5286F4FFD0066DF62 /* AppDelegate.swift */; };
 		132545A8286F4FFD0066DF62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132545A7286F4FFD0066DF62 /* SceneDelegate.swift */; };
-		132545AA286F4FFE0066DF62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132545A9286F4FFE0066DF62 /* ViewController.swift */; };
-		132545AD286F4FFE0066DF62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132545AB286F4FFE0066DF62 /* Main.storyboard */; };
-		132545B0286F4FFE0066DF62 /* LuluAssessement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 132545AE286F4FFE0066DF62 /* LuluAssessement.xcdatamodeld */; };
+		132545AA286F4FFE0066DF62 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132545A9286F4FFE0066DF62 /* MainViewController.swift */; };
 		132545B2286F50050066DF62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 132545B1286F50050066DF62 /* Assets.xcassets */; };
 		132545B5286F50050066DF62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132545B3286F50050066DF62 /* LaunchScreen.storyboard */; };
+		132545C3286F55D10066DF62 /* GarmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132545C2286F55D10066DF62 /* GarmentModel.swift */; };
+		132545C5286F754D0066DF62 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132545C4286F754D0066DF62 /* AddViewController.swift */; };
+		132545C9286F8AEA0066DF62 /* PersistData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132545C8286F8AEA0066DF62 /* PersistData.swift */; };
+		13A702B0286F9AF200AD377E /* GarmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A702AF286F9AF200AD377E /* GarmentViewModel.swift */; };
+		8B90E47728729B4D006B371E /* LuluAssessementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B90E47628729B4D006B371E /* LuluAssessementTests.swift */; };
+		8BAC939C2872E069005A9253 /* LuluAssessement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BAC939A2872E069005A9253 /* LuluAssessement.xcdatamodeld */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B90E47828729B4D006B371E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1325459A286F4FFD0066DF62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 132545A1286F4FFD0066DF62;
+			remoteInfo = LuluAssessement;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		132545A2286F4FFD0066DF62 /* LuluAssessement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuluAssessement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		132545A5286F4FFD0066DF62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		132545A7286F4FFD0066DF62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		132545A9286F4FFE0066DF62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		132545AC286F4FFE0066DF62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		132545AF286F4FFE0066DF62 /* LuluAssessement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LuluAssessement.xcdatamodel; sourceTree = "<group>"; };
+		132545A9286F4FFE0066DF62 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		132545B1286F50050066DF62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		132545B4286F50050066DF62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		132545B6286F50050066DF62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132545C2286F55D10066DF62 /* GarmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentModel.swift; sourceTree = "<group>"; };
+		132545C4286F754D0066DF62 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		132545C8286F8AEA0066DF62 /* PersistData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistData.swift; sourceTree = "<group>"; };
+		13A702AF286F9AF200AD377E /* GarmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentViewModel.swift; sourceTree = "<group>"; };
+		8B90E47428729B4D006B371E /* LuluAssessementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuluAssessementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B90E47628729B4D006B371E /* LuluAssessementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuluAssessementTests.swift; sourceTree = "<group>"; };
+		8BAC939B2872E069005A9253 /* LuluAssessement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LuluAssessement.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1325459F286F4FFD0066DF62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B90E47128729B4D006B371E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				132545A4286F4FFD0066DF62 /* LuluAssessement */,
+				8B90E47528729B4D006B371E /* LuluAssessementTests */,
 				132545A3286F4FFD0066DF62 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				132545A2286F4FFD0066DF62 /* LuluAssessement.app */,
+				8B90E47428729B4D006B371E /* LuluAssessementTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,16 +86,67 @@
 		132545A4286F4FFD0066DF62 /* LuluAssessement */ = {
 			isa = PBXGroup;
 			children = (
-				132545A5286F4FFD0066DF62 /* AppDelegate.swift */,
-				132545A7286F4FFD0066DF62 /* SceneDelegate.swift */,
-				132545A9286F4FFE0066DF62 /* ViewController.swift */,
-				132545AB286F4FFE0066DF62 /* Main.storyboard */,
-				132545B1286F50050066DF62 /* Assets.xcassets */,
-				132545B3286F50050066DF62 /* LaunchScreen.storyboard */,
+				132545BC286F50430066DF62 /* SupportingFiles */,
+				13A702AE286F9AAA00AD377E /* Utilities */,
+				132545BE286F507E0066DF62 /* Models */,
+				132545BF286F50890066DF62 /* ViewModels */,
+				132545C0286F509B0066DF62 /* ViewControllers */,
 				132545B6286F50050066DF62 /* Info.plist */,
-				132545AE286F4FFE0066DF62 /* LuluAssessement.xcdatamodeld */,
+				8BAC939A2872E069005A9253 /* LuluAssessement.xcdatamodeld */,
 			);
 			path = LuluAssessement;
+			sourceTree = "<group>";
+		};
+		132545BC286F50430066DF62 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				132545B1286F50050066DF62 /* Assets.xcassets */,
+				132545A5286F4FFD0066DF62 /* AppDelegate.swift */,
+				132545A7286F4FFD0066DF62 /* SceneDelegate.swift */,
+				132545B3286F50050066DF62 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		132545BE286F507E0066DF62 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				132545C2286F55D10066DF62 /* GarmentModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		132545BF286F50890066DF62 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				13A702AF286F9AF200AD377E /* GarmentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		132545C0286F509B0066DF62 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				132545A9286F4FFE0066DF62 /* MainViewController.swift */,
+				132545C4286F754D0066DF62 /* AddViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		13A702AE286F9AAA00AD377E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				132545C8286F8AEA0066DF62 /* PersistData.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8B90E47528729B4D006B371E /* LuluAssessementTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B90E47628729B4D006B371E /* LuluAssessementTests.swift */,
+			);
+			path = LuluAssessementTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +169,24 @@
 			productReference = 132545A2286F4FFD0066DF62 /* LuluAssessement.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8B90E47328729B4D006B371E /* LuluAssessementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B90E47C28729B4D006B371E /* Build configuration list for PBXNativeTarget "LuluAssessementTests" */;
+			buildPhases = (
+				8B90E47028729B4D006B371E /* Sources */,
+				8B90E47128729B4D006B371E /* Frameworks */,
+				8B90E47228729B4D006B371E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B90E47928729B4D006B371E /* PBXTargetDependency */,
+			);
+			name = LuluAssessementTests;
+			productName = LuluAssessementTests;
+			productReference = 8B90E47428729B4D006B371E /* LuluAssessementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -102,6 +199,10 @@
 				TargetAttributes = {
 					132545A1286F4FFD0066DF62 = {
 						CreatedOnToolsVersion = 13.3.1;
+					};
+					8B90E47328729B4D006B371E = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 132545A1286F4FFD0066DF62;
 					};
 				};
 			};
@@ -119,6 +220,7 @@
 			projectRoot = "";
 			targets = (
 				132545A1286F4FFD0066DF62 /* LuluAssessement */,
+				8B90E47328729B4D006B371E /* LuluAssessementTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,7 +232,13 @@
 			files = (
 				132545B5286F50050066DF62 /* LaunchScreen.storyboard in Resources */,
 				132545B2286F50050066DF62 /* Assets.xcassets in Resources */,
-				132545AD286F4FFE0066DF62 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B90E47228729B4D006B371E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +249,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				132545AA286F4FFE0066DF62 /* ViewController.swift in Sources */,
-				132545B0286F4FFE0066DF62 /* LuluAssessement.xcdatamodeld in Sources */,
+				132545C3286F55D10066DF62 /* GarmentModel.swift in Sources */,
+				8BAC939C2872E069005A9253 /* LuluAssessement.xcdatamodeld in Sources */,
+				132545AA286F4FFE0066DF62 /* MainViewController.swift in Sources */,
+				132545C5286F754D0066DF62 /* AddViewController.swift in Sources */,
+				13A702B0286F9AF200AD377E /* GarmentViewModel.swift in Sources */,
+				132545C9286F8AEA0066DF62 /* PersistData.swift in Sources */,
 				132545A6286F4FFD0066DF62 /* AppDelegate.swift in Sources */,
 				132545A8286F4FFD0066DF62 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8B90E47028729B4D006B371E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B90E47728729B4D006B371E /* LuluAssessementTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		132545AB286F4FFE0066DF62 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				132545AC286F4FFE0066DF62 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		8B90E47928729B4D006B371E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 132545A1286F4FFD0066DF62 /* LuluAssessement */;
+			targetProxy = 8B90E47828729B4D006B371E /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		132545B3286F50050066DF62 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +416,6 @@
 				INFOPLIST_FILE = LuluAssessement/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +443,6 @@
 				INFOPLIST_FILE = LuluAssessement/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -337,6 +455,40 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B90E47A28729B4D006B371E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Elar.LuluAssessementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuluAssessement.app/LuluAssessement";
+			};
+			name = Debug;
+		};
+		8B90E47B28729B4D006B371E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Elar.LuluAssessementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuluAssessement.app/LuluAssessement";
 			};
 			name = Release;
 		};
@@ -361,15 +513,24 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8B90E47C28729B4D006B371E /* Build configuration list for PBXNativeTarget "LuluAssessementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B90E47A28729B4D006B371E /* Debug */,
+				8B90E47B28729B4D006B371E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		132545AE286F4FFE0066DF62 /* LuluAssessement.xcdatamodeld */ = {
+		8BAC939A2872E069005A9253 /* LuluAssessement.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				132545AF286F4FFE0066DF62 /* LuluAssessement.xcdatamodel */,
+				8BAC939B2872E069005A9253 /* LuluAssessement.xcdatamodel */,
 			);
-			currentVersion = 132545AF286F4FFE0066DF62 /* LuluAssessement.xcdatamodel */;
+			currentVersion = 8BAC939B2872E069005A9253 /* LuluAssessement.xcdatamodel */;
 			path = LuluAssessement.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
